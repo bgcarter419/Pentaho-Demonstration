@@ -849,7 +849,7 @@
     <rules>
       <rule>
         <lower_bound>-1.7976931348623157E308</lower_bound>
-        <upper_bound>3000.0</upper_bound>
+        <upper_bound>2999.0</upper_bound>
         <value>Small</value>
       </rule>
       <rule>

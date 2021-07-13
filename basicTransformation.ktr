@@ -858,7 +858,7 @@
         <value>Medium</value>
       </rule>
       <rule>
-        <lower_bound>7000.0</lower_bound>
+        <lower_bound>7001.0</lower_bound>
         <upper_bound>1.7976931348623157E308</upper_bound>
         <value>Large</value>
       </rule>
@@ -1743,10 +1743,6 @@
     </group>
     <group>
       <name>{"_":"Embedded MetaStore Elements","namespace":"pentaho","type":"Kettle Data Service"}</name>
-      <attribute>
-        <key>Basic_Sales_Data_Service</key>
-        <value>{"children":[{"children":[],"id":"streaming","value":"N"},{"children":[],"id":"time_limit","value":"10000"},{"children":[],"id":"step_name","value":"Table output"},{"children":[],"id":"row_limit","value":"5000"},{"children":[{"children":[{"children":[],"id":"step_name","value":"Table output"},{"children":[],"id":"name","value":"fe21287b-08c3-426c-82fe-94c6c42c2ec9"},{"children":[{"children":[{"children":[],"id":"template_name","value":"default"},{"children":[],"id":"time_to_live","value":null}],"id":"_POJO_","value":"org.pentaho.di.trans.dataservice.optimization.cache.ServiceCache"}],"id":"type","value":null},{"children":[],"id":"enabled","value":"Y"}],"id":"0","value":null},{"children":[{"children":[],"id":"step_name","value":"Table output"},{"children":[],"id":"name","value":"1f26f342-0828-4954-af6d-ff9fce2d45de"},{"children":[{"children":[{"children":[],"id":"definitions_list","value":null}],"id":"_POJO_","value":"org.pentaho.di.trans.dataservice.optimization.pushdown.ParameterPushdown"}],"id":"type","value":null},{"children":[],"id":"enabled","value":"Y"}],"id":"1","value":null}],"id":"push_down_opt_meta","value":"org.pentaho.di.trans.dataservice.optimization.PushDownOptimizationMeta"},{"children":[],"id":"is_user_defined","value":"Y"}],"id":"Basic_Sales_Data_Service","value":null,"name":"Basic_Sales_Data_Service","owner":null,"ownerPermissionsList":[]}</value>
-      </attribute>
     </group>
     <group>
       <name>{"_":"Embedded MetaStore Elements","namespace":"pentaho","type":"Snowflake Staging VFS Connection"}</name>
